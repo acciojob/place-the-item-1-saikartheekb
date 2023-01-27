@@ -1,8 +1,15 @@
-
-/* Your CSS Code here. */
 .holder {
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.holder label,
+.holder input,
+.holder input[type="submit"] {
+    margin: 8px;
 }
